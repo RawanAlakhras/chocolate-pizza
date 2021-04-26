@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC%7CYellowtail%7COswald');
 *{
     box-sizing: border-box;
 }
@@ -8,6 +8,7 @@ body{
     padding:0;
     width: 850px;
     margin: auto;
+    /* font-family: Serif,Oswald, Yellowtail; */
     
     
 }
@@ -18,6 +19,16 @@ nav{
 .logo{
     display: inline-block;
     padding-top:10px ;
+}
+.logo p{
+    font-family: Oswald;
+    opacity: .6;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+.logo h1{
+    font-family:'Yellowtail';
+    margin: 0;
 }
 .social{
     display: inline-block;
@@ -31,7 +42,7 @@ nav{
 }
 h2{
     margin:0 ;
-    font-family: 'Homemade Apple', cursive;
+   
 }
 p{
     margin: 0;
@@ -42,8 +53,17 @@ p{
     background-image: url(./img/hr-img.png);
 }
 header p{
-    opacity: 0.5;
+    opacity: 0.3;
     display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 11px;
+    font-family: Oswald;
+}
+header h1{
+    font-family: Oswald;
+    color: #333333;
+    margin: 0;
 }
 .print-img{
     float: right;
@@ -56,7 +76,9 @@ header p{
     width: 100%;
 }
 article p {
-font-size: 12px;
+font-size: 18px;
+opacity: .5;
+font-family: Serif;
 
 }
 article{
@@ -81,7 +103,8 @@ form div{
     
 }
 label{
-    
+    color: #535252;
+    font-family:serif,'Yellowtail';
 }
 .sub-section .text{
     display: inline-block;
@@ -109,6 +132,12 @@ footer hr{
 }
 footer p{
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     opacity: .5;
+    font-family: serif,Oswald;
+    margin: 0;
+  
+}
+input[type=checkbox]{
+border: 10px solid #333333;
 }
